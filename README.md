@@ -1,2 +1,2 @@
-# Demo-iDAAS_Connect-HL7
+# Demo-iDAAS-Connect-HL7
 Demonstration for iDAAS Connect HL7 
