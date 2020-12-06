@@ -49,7 +49,7 @@ nb-configuration.xml
 ### Eclipse ###
 
 .metadata
-#bin/
+bin/
 tmp/
 *.tmp
 *.bak
@@ -227,7 +227,7 @@ Temporary Items
 .mtj.tmp/
 
 # Package Files #
-#*.jar
+*.jar
 *.war
 *.ear
 
