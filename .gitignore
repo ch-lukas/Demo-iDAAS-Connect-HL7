@@ -307,3 +307,9 @@ typings/
 !platform-software/apache-maven-3.6.3/lib/ext/*
 
 !platform-software/java-1.8.0/*
+!platform-software/java-1.8.0/jre/*
+!platform-software/java-1.8.0/jre/bin/*
+!platform-software/java-1.8.0/jre/lib/*
+!platform-software/java-1.8.0/lib/*
+!platform-software/java-1.8.0/missioncontrol/*
+!platform-software/java-1.8.0/webstart/*
