@@ -313,3 +313,7 @@ typings/
 !platform-software/java-1.8.0/lib/*
 !platform-software/java-1.8.0/missioncontrol/*
 !platform-software/java-1.8.0/webstart/*
+
+!platform-software/kafka-2.12-2.5.0.redhat-00003/*
+!platform-software/kafka-2.12-2.5.0.redhat-00003/bin/*
+!platform-software/kafka-2.12-2.5.0.redhat-00003/libs/*
