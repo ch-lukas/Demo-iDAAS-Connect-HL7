@@ -297,5 +297,6 @@ typings/
 # dotenv environment variables file
 .env
 
-!platform-software/
-!platform-software/bin
+!platform-software
+!platform-software/apache-maven-3.6.3/*
+!platform-software/apache-maven-3.6.3/bin/*
