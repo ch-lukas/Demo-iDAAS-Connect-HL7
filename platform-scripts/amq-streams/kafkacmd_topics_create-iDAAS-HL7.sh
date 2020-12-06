@@ -1,6 +1,4 @@
-#source kafka_version.sh
-#cd ../../platform-software/kafka-2.12-2.5.0.redhat-00003
-redHatKafka=./platform-software/kafka-2.12-2.5.0.redhat-00003
+source ./platform-scripts/amq-streams/kafka-paths.sh
 
 ## Operational Topics for Platform
 $redHatKafka/bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic opsmgmt_platformtransactions

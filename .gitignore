@@ -296,3 +296,6 @@ typings/
 
 # dotenv environment variables file
 .env
+
+platform-software
+platform-software/*
