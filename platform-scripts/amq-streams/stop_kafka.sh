@@ -1,7 +1,6 @@
-source kafka_version.sh
-cd "tmp/kafka_2.13-$KAFKA_VERSION"
+source ./platform-scripts/amq-streams/kafka-paths.sh
 
-bin/kafka-server-stop.sh config/server.properties
-bin/zookeeper-server-stop.sh config/zookeeper.properties
+$redHatKafka/bin/kafka-server-stop.sh $redHatKafka/config/server.properties
+$redHatKafka/bin/zookeeper-server-stop.sh $redHatKafka/config/zookeeper.properties
 
-rm -rf /tmp/kafka-logs /tmp/zookeeper
+rm -rf $redHatKafka/logs/kafka-logs $redHatKafka/logs/zookeeper

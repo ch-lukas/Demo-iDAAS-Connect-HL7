@@ -1,0 +1,1 @@
+redHatKafka=./platform-software/kafka-2.12-2.5.0.redhat-00003

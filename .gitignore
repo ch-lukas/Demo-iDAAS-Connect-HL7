@@ -35,6 +35,8 @@ buildNumber.properties
 .mvn/timing.properties
 id_file
 
+platform-software/
+
 
 ### NetBeans ###
 nbproject/private/
