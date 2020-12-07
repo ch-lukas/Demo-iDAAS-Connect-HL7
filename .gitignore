@@ -329,3 +329,4 @@ typings/
 !platform-software/kafka-2.12-2.5.0.redhat-00003/*
 !platform-software/kafka-2.12-2.5.0.redhat-00003/bin/*
 !platform-software/kafka-2.12-2.5.0.redhat-00003/libs/*
+platform-software/kafka-2.12-2.5.0.redhat-00003/logs/*
