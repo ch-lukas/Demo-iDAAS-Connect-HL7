@@ -42,6 +42,7 @@ Configuration used for this tutorial:
 1.  Windows 10 VM based on VirtualBox (e.g. https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/)
 2.  VM with 4gb memory and 2 CPU
 3.  Visual Studio Code (latest version)
+4.  7Zip
 
 ### Setup Instructions
 #### Git Installation

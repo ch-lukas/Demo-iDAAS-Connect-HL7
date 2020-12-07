@@ -311,7 +311,13 @@ typings/
 !platform-software/java-1.8.0/jre/bin/*
 !platform-software/java-1.8.0/jre/lib/*
 !platform-software/java-1.8.0/lib/*
+!platform-software/java-1.8.0/lib/applet/*
+!platform-software/java-1.8.0/lib/ext/*
+!platform-software/java-1.8.0/lib/security/policy/*
 !platform-software/java-1.8.0/missioncontrol/*
+!platform-software/java-1.8.0/missioncontrol/p2/org.eclipse.equinox.p2.engine/.settings/*
+!platform-software/java-1.8.0/missioncontrol/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/.data/*
+!platform-software/java-1.8.0/missioncontrol/p2/plugins/*
 !platform-software/java-1.8.0/webstart/*
 
 !platform-software/kafka-2.12-2.5.0.redhat-00003/*
