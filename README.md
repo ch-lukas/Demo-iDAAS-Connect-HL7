@@ -32,8 +32,32 @@ Server socket (one socket per datatype) and typically stay connected.
     if the client does not get this in a timely manner it will resend the same message again until he receives an ACK).<br/>
     d. The acknowledgement is also sent to the auditing topic location.<br/>
     
-## Builds
-This section will cover both local and automated builds.
+## Laptop Prep
+This section will cover how to setup your Windows machine to be able to run iDaaS.
+
+Requirements:
+1.  Windows 10
+
+Configuration used for this tutorial:
+1.  Windows 10 VM based on VirtualBox (e.g. https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/)
+2.  VM with 4gb memory and 2 CPU
+3.  VSCode (latest version)
+
+### Setup Instructions
+#### Git Installation
+1.  Download Git from https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.2/Git-2.29.2.2-64-bit.exe 
+2.  Install using defaults
+
+#### Project Download
+1.  Create "Projects" folder (tip try and make the path as short as possible and do not use spaces or underscores)
+2.  Open PowerShell --> Navigate to your newly created folder (e.g. "C:\Projects")
+3.  Clone this iDaaS demo project by typing "git clone https://github.com/ch-lukas/Demo-iDAAS-Connect-HL7.git"
+
+### VSCode Prep
+1.  Install VSCode is you do not already have a copy (e.g. https://code.visualstudio.com/download)
+2.  Open VSCode
+3.  Load project by clicking on "File/Open Folder" --> Select project (e.g. "C:\Projects\Demo-iDAAS-Connect-HL7")
+3.  We need to activate and prepare the terminal --> Click "Terminal/New Terminal" --> Click on the drop-down box that currently says "1: powershell" and select "Select Default Shell" and select "Git Bash" --> Close the terminal and re-open it (it should now have bash selected)
 
 ### Local Builds
 Within the code base you can find the local build commands in the /platform-scripts directory
