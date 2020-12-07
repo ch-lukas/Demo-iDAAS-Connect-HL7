@@ -41,7 +41,7 @@ Requirements:
 Configuration used for this tutorial:
 1.  Windows 10 VM based on VirtualBox (e.g. https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/)
 2.  VM with 4gb memory and 2 CPU
-3.  VSCode (latest version)
+3.  Visual Studio Code (latest version)
 
 ### Setup Instructions
 #### Git Installation
@@ -53,9 +53,9 @@ Configuration used for this tutorial:
 2.  Open PowerShell --> Navigate to your newly created folder (e.g. "C:\Projects")
 3.  Clone this iDaaS demo project by typing "git clone https://github.com/ch-lukas/Demo-iDAAS-Connect-HL7.git"
 
-### VSCode Prep
-1.  Install VSCode is you do not already have a copy (e.g. https://code.visualstudio.com/download)
-2.  Open VSCode
+#### Visual Studio Code Prep
+1.  Install if you do not already have a copy (e.g. https://code.visualstudio.com/download)
+2.  Open Visual Studio Code
 3.  Load project by clicking on "File/Open Folder" --> Select project (e.g. "C:\Projects\Demo-iDAAS-Connect-HL7")
 3.  We need to activate and prepare the terminal --> Click "Terminal/New Terminal" --> Click on the drop-down box that currently says "1: powershell" and select "Select Default Shell" and select "Git Bash" --> Close the terminal and re-open it (it should now have bash selected)
 
