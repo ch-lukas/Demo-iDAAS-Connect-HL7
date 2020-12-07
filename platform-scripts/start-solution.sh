@@ -9,6 +9,6 @@ echo "*** Creating sample topics (will take a few minutes) ***"
 ./platform-scripts/amq-streams/kafkacmd_topics_create-iDAAS-HL7.sh > /dev/null 2>&1 &
 
 echo "*** Starting iDaaS ***"
-java -jar ./target/idaas-connect-hl7.jar $@
+./platform-software/java-1.8.0/bin/java -jar ./target/idaas-connect-hl7.jar $@
 
 
