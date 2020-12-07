@@ -311,10 +311,11 @@ typings/
 !platform-software/java-1.8.0/jre/bin/*
 !platform-software/java-1.8.0/jre/lib/*
 !platform-software/java-1.8.0/jre/lib/applet
+!platform-software/java-1.8.0/jre/lib/applet/*
 !platform-software/java-1.8.0/jre/lib/ext/*
+!platform-software/java-1.8.0/jre/lib/security/policy/limited/*
+!platform-software/java-1.8.0/jre/lib/security/policy/unlimited/*
 !platform-software/java-1.8.0/lib/*
-C:\Users\User\Downloads\java-1.8.0-openjdk-1.8.0.275-1.b01.redhat.windows.x86_64\jre\lib\ext
-!platform-software/java-1.8.0/lib/security/policy/*
 !platform-software/java-1.8.0/missioncontrol/*
 !platform-software/java-1.8.0/missioncontrol/p2/*
 !platform-software/java-1.8.0/missioncontrol/p2/org.eclipse.equinox.p2.engine/*
