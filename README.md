@@ -75,7 +75,7 @@ Additionally, there is a copy statement to remove any specific version, so it ou
 ## Running the iDaaS Solution
 
 Once built you can run the solution by executing `./platform-scripts/start-solution.sh`. 
-The script will startup Koopeer, Kafka and the iDaaS server.
+The script will startup Zookeeper, Kafka and the iDaaS server.
 
 It is possible to overwrite configuration by:
 1. Providing parameters via command line e.g.
