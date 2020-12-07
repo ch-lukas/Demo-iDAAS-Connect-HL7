@@ -39,45 +39,43 @@ Requirements:
 1.  Windows 10
 
 Configuration used for this tutorial:
-1.  Windows 10 VM based on VirtualBox (e.g. https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/)
+1.  Windows 10 VM based on VirtualBox (e.g. `https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/`)
 2.  VM with 4gb memory and 2 CPU
 3.  Visual Studio Code (latest version)
 4.  7Zip
 
+Software that comes pre-bundled in this project (e.g. `platform-software`)
+1.  apache-maven-3.6.3
+2.  java-1.8.0 (iDaaS is compiled using Java 8, but you can still have Java 11 glbally installed if you require additional Visual Studio Code Extensions)
+3.  Red Hat Integration (e.g. Camel, AMQ, AMQ-Streams/Kafka)
+
 ### Setup Instructions
 #### Git Installation
-1.  Download Git from https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.2/Git-2.29.2.2-64-bit.exe 
+1.  Download Git from `https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.2/Git-2.29.2.2-64-bit.exe` 
 2.  Install using defaults
 
 #### Project Download
 1.  Create "Projects" folder (tip try and make the path as short as possible and do not use spaces or underscores)
-2.  Open PowerShell --> Navigate to your newly created folder (e.g. "C:\Projects")
-3.  Clone this iDaaS demo project by typing "git clone https://github.com/ch-lukas/Demo-iDAAS-Connect-HL7.git"
+2.  Open PowerShell --> Navigate to your newly created folder (e.g. `C:\Projects`)
+3.  Clone this iDaaS demo project by typing `git clone https://github.com/ch-lukas/Demo-iDAAS-Connect-HL7.git`
 
 #### Visual Studio Code Prep
-1.  Install if you do not already have a copy (e.g. https://code.visualstudio.com/download)
+1.  Install if you do not already have a copy (e.g. `https://code.visualstudio.com/download`)
 2.  Open Visual Studio Code
-3.  Load project by clicking on "File/Open Folder" --> Select project (e.g. "C:\Projects\Demo-iDAAS-Connect-HL7")
-3.  We need to activate and prepare the terminal --> Click "Terminal/New Terminal" --> Click on the drop-down box that currently says "1: powershell" and select "Select Default Shell" and select "Git Bash" --> Close the terminal and re-open it (it should now have bash selected)
+3.  Load project by clicking on `File/Open Folder` --> Select project (e.g. `C:\Projects\Demo-iDAAS-Connect-HL7`)
+3.  We need to activate and prepare the terminal --> Click `Terminal/New Terminal` --> Click on the drop-down box that currently says `1: powershell` and select `Select Default Shell` and select `Git Bash` --> Close the terminal and re-open it (it should now have bash selected)
 
-### Local Builds
+## Build Solution
 Within the code base you can find the local build commands in the /platform-scripts directory
-1.  Run the build-solution.sh script
+1.  Run the build-solution.sh script (from the project root --> `./platform-scripts/build-solution.sh`)
 It will run the maven commands to build and then package up the solution. The package will use the usual settings
 in the pom.xml file. It pulls the version and concatenates the version to the output jar it builds.
 Additionally, there is a copy statement to remove any specific version, so it outputs idaas-connect-hl7.jar
 
-### Automated Builds
-Automated Builds are going to be done in Azure Pipelines
-
-## Running
+## Running the iDaaS Solution
 
 Once built you can run the solution by executing `./platform-scripts/start-solution.sh`. 
-The script will startup Kafka and iDAAS server.
-
-Alternatively, if you have a running instance of Kafka, you can start a solution with:
-`./platform-scripts/start-solution-with-kafka-brokers.sh --idaas.kafkaBrokers=host1:port1,host2:port2`.
-The script will startup iDAAS server.
+The script will startup Koopeer, Kafka and the iDaaS server.
 
 It is possible to overwrite configuration by:
 1. Providing parameters via command line e.g.
@@ -98,6 +96,11 @@ idaas.mdmPort=10006
 idaas.schPort=10007
 idaas.vxuPort=10008
 ```
+
+## Testing the Solution
+
+The test and see if everything is working you do the following:
+1.  You can download a tool such as KafkaTool `https://www.kafkatool.com/download2/kafkatool_64bit.exe`. Please note that this is free only for non-commerial use (refer to their Ts & Cs for more information)
 
 # Getting Involved
 Here are a few ways you can get or stay involved.
