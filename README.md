@@ -101,6 +101,7 @@ idaas.vxuPort=10008
 
 The test and see if everything is working you do the following:
 1.  You can download a tool such as KafkaTool `https://www.kafkatool.com/download2/kafkatool_64bit.exe`. Please note that this is free only for non-commerial use (refer to their Ts & Cs for more information)
+2.  Example setup: `Cluster name=iDaas`, `Kafka Cluster Version=2.5` --> Save --> You can now view Brokers and Topics
 
 # Getting Involved
 Here are a few ways you can get or stay involved.
