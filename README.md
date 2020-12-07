@@ -47,7 +47,7 @@ Configuration used for this tutorial:
 Software that comes pre-bundled in this project (e.g. `platform-software`)
 1.  apache-maven-3.6.3
 2.  java-1.8.0 (iDaaS is compiled using Java 8, but you can still have Java 11 glbally installed if you require additional Visual Studio Code Extensions)
-3.  Red Hat Integration (e.g. Camel, AMQ, AMQ-Streams/Kafka)
+3.  Red Hat Integration: Fuse (Camel), AMQ (Active MQ), AMQ-Streams (Kafka). Please note that this is a subset of the full suite of tooling.
 
 ### Setup Instructions
 #### Git Installation
